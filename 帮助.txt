@@ -1,0 +1,87 @@
+FelixScript语言可实现与python进行交互(本语言可实现中文编写（也可实现英文编写）)
+FelixScript language can interact with python (this language can be written in Chinese (or in English))
+
+弹窗：
+	 提示弹窗（代码名：提示弹窗(内容)/msgbox(内容)）
+	 输入弹窗（代码名：输入弹窗(内容)/enterbox(内容)）
+	 文件选择弹窗（代码名：文件选择弹窗(内容)/fileSelection_box(内容)）
+	 文件夹选择弹窗（代码名：文件夹选择弹窗(内容)/folderSelection_box(内容)）
+	 大型输入弹窗（代码名：大型输入弹窗(内容)/largeInput_box(内容)）
+	 密码输入弹窗（代码名：密码输入弹窗(内容)/passwordInput_box(内容)）
+	 文件另存为弹窗（代码名：文件另存为弹窗(内容)/saveFile_box(内容)）
+	 日历选择弹窗（代码名：日历选择弹窗(内容)/Calendar_Selection_box(内容)）
+	 颜色选择弹窗（代码名：颜色选择弹窗(内容)/Color_Selection_box(内容)）
+
+时间：
+	弹窗获取年（代码名：弹窗输出年()/msgbox_year()）
+	终端获取年（代码名：终端输出年()/print_year()）
+	弹窗获取月（代码名：弹窗输出月()/msgbox_month()）
+	终端获取月（代码名：终端输出月()/print_month()）
+	弹窗获取日（代码名：弹窗输出日()/msgbox_day()）
+	终端获取日（代码名：终端输出日()/print_day()）
+	弹窗获取时（代码名：弹窗输出时()/msgbox_hour()）
+	终端获取时（代码名：终端输出时()/print_hour()）
+	弹窗获取分（代码名：弹窗输出分()/msgbox_minute()）
+	终端获取秒（代码名：终端输出秒()/print_second()）
+	延时（代码名：延时(时间)/wait(时间)）
+
+其他：
+	自动点击（代码名：自动点击(坐标,坐标)/click(坐标,坐标)）
+	自动输入（代码名：自动输入(内容)/entering(内容)）
+	输入快捷键（代码名：输入快捷键(内容)/shortcut_keys(内容)）{
+										控制键：
+										'alt'
+										'alt gr'
+										'ctrl'
+										'left alt'
+										'left ctrl'
+										'left shift'
+										'left windows'
+										'right alt'
+										'right ctrl'
+										'right shift'
+										'right windows'
+										'shift'
+										'windows'
+										'enter'
+										'esc'
+										'f1'
+										'f2'
+										......等
+										
+										
+										方向键：
+										'up'
+										'down'
+										'left'
+										'right'
+										......
+										
+										组合键：
+										'ctrl'+'alt'+'a'
+										......等
+	}
+	
+	新建文件夹（代码名：新建文件夹(文件名)/new_Folder(文件名)）
+	新建文件（代码名：新建文件(文件名)/new_File(文件名)）
+	删除文件（代码名：删除文件(文件名)/delete_File(文件名)）
+	提示框读取文件（代码名：提示框读取文件(文件名)/msgbox_read_File(文件名)）
+	输出读取文件（代码名：输出读取文件(文件名)/print_read_File(文件名)）
+	编辑文件（代码名：编辑文件(文件名)/edit_File(文件名)）
+	
+	执行系统命令（代码名：系统命令(内容)/S_C(内容)）
+	
+	输出随机数（代码名：输出随机数(几,到几)/print_random(几,到几)）
+	提示框随机数（代码名：提示框随机数(几,到几)/msgbox_random(几,到几)）
+	空（代码名：空/None）	
+	真（代码名：真/True）
+	假（代码名：假/False）
+	运行FelixScript/python（代码名：运行(内容)/run(内容)）
+	转换成FelixScript/python（代码代码名：转换(内容)/to(内容)）
+	退出（代码名：退出(内容)/exit(内容))
+	换行（代码名：换行/\n）
+	注释(代码名：注释('内容')/notes('内容'))
+
+终端：
+	打印（代码名：打印(内容)/print(内容)）	
+	输入（代码名：输入(内容)/input(内容)）
